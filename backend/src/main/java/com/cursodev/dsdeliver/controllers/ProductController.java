@@ -12,7 +12,7 @@ import com.cursodev.dsdeliver.dto.ProductDTO;
 import com.cursodev.dsdeliver.services.ProductService;
 
 @RestController
-@RequestMapping(value = "products") //caminho do recurso
+@RequestMapping(value = "/products") //caminho do recurso
 public class ProductController {
 
 	@Autowired
